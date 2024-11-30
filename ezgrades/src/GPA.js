@@ -3,10 +3,10 @@ import React from 'react';
 function GPA_input() {
     return(
       <form>
-        <label htmlFor="username">Username:</label>
-        <input type="text" id="username" name="username" />
+        <label htmlFor="current_gpa">Current GPA:</label>
+        <input type="text" id="current_gpa" name="current_gpa" />
       </form>
     );
 }
 
-export default GPA;
+export default GPA_input;
